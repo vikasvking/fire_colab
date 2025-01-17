@@ -1,13 +1,7 @@
-train: C:\Users\vikas\Downloads\Fire_Detection.v8i.yolov8/train/images
-val: C:\Users\vikas\Downloads\Fire_Detection.v8i.yolov8/valid/images
-test: C:\Users\vikas\Downloads\Fire_Detection.v8i.yolov8/test/images
+train: /train/images
+val: /valid/images
+test: /test/images
 
 nc: 2
 names: ['Fire', 'Smoke']
 
-roboflow:
-  workspace: firedetection-sserj
-  project: fire_detection-uhbdr
-  version: 8
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/firedetection-sserj/fire_detection-uhbdr/dataset/8
