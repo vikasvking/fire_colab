@@ -1,6 +1,6 @@
-train: C:\Users\vikas\Downloads\Fire_Detection.v8i.yolov8/train/images
-val: C:\Users\vikas\Downloads\Fire_Detection.v8i.yolov8/valid/images
-test: C:\Users\vikas\Downloads\Fire_Detection.v8i.yolov8/test/images
+train: /content/train/images
+val: /content/valid/images
+test: /content/test/images
 
 nc: 2
 names: ['Fire', 'Smoke']
